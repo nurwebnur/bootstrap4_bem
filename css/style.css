@@ -1,0 +1,173 @@
+@import "fonts.css";
+
+body {
+    box-sizing: border-box;
+    font-family: "Open Sans Regular";
+    color: #212121;;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+svg {
+    height: 100%;
+    transition: 0.4s;
+}
+
+.button {
+    font-family: "Roboto Regular";
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 19px 24px;
+    margin: 0 12px;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #00897b;
+    border-color: #00897b;
+}
+
+.title {
+    text-align: center;
+}
+
+.title__img {
+    height: 62px;
+}
+
+.title__h2 {
+    font-family: "Open Sans Semibold";
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 32px;
+}
+
+.title__h3 {
+    font-family: "Open Sans Semibold";
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 40px 0 20px;
+}
+
+.title__p {
+    font-size: 15px;
+}
+
+/* MENU-BAR */
+
+.menu-bar {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__link {
+    font-size: 20px;
+    color: #212121;
+    transition: 0.4s;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: #868686;
+}
+
+/* HEADER */
+
+.header {
+    color: #fff;
+    text-align: center;
+    padding: 180px 0;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: 0 100%;
+}
+
+.header__title {
+    font-family: "Open Sans Semibold";
+    font-size: 60px;
+}
+
+.header__text {
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+
+/* ABOUT */
+
+.about {
+    background: #fff;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.about__content {
+    margin-top: 110px;
+}
+
+.about__content img,
+.services img {
+    height: 62px;
+}
+
+/* SERVICES */
+
+.services {
+    background: #e4fdf9;
+    text-align: center;
+    padding: 170px 0 125px;
+}
+
+.our_card {
+    background: #fff;
+    padding: 60px 35px 50px;
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+.our_card:hover {
+    background-color: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.our_card:hover .title__svg {
+    fill: #fff;
+}
+
+.our_card:hover .services__btn {
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.services__btn {
+    font-family: "Open Sans Semibold";
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #212121;
+    background-color: transparent;
+    border: 2px solid #212121;
+    padding: 19px 14px;
+    margin: 0 12px;
+    transition: 0.4s;
+}
+
+
+
