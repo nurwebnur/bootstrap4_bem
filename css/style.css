@@ -32,8 +32,10 @@ svg {
     padding: 19px 24px;
     margin: 0 12px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
+.portfolio .button:hover,
 .button:hover {
     background-color: #00897b;
     border-color: #00897b;
@@ -159,15 +161,41 @@ svg {
 .services__btn {
     font-family: "Open Sans Semibold";
     font-size: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #212121;
     background-color: transparent;
     border: 2px solid #212121;
-    padding: 19px 14px;
+    padding: 10px 14px;
     margin: 0 12px;
     transition: 0.4s;
 }
 
+/* PORTFOLIO */
 
+.portfolio {
+    padding: 125px 0 135px;
+}
 
+.portfolio .title {
+    margin-bottom: 110px;
+}
+
+.portfolio .button {
+    color: #212121;
+    background-color: transparent;
+    border: 2px solid #00897b;
+    padding: 10px 14px;
+}
+
+.portfolio .button:hover {
+    color: #fff;
+}
+
+.portfolio img {
+    margin: 5px;
+}
+
+.filter {
+    padding: 120px 0;
+}
