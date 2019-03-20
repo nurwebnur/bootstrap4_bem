@@ -36,7 +36,8 @@ svg {
 }
 
 .portfolio .button:hover,
-.button:hover {
+.button:hover,
+.btn_active {
     background-color: #00897b;
     border-color: #00897b;
 }
@@ -188,7 +189,8 @@ svg {
     padding: 10px 14px;
 }
 
-.portfolio .button:hover {
+.portfolio .button:hover,
+.btn_active {
     color: #fff;
 }
 
@@ -198,4 +200,28 @@ svg {
 
 .filter {
     padding: 120px 0;
+}
+
+div[filter] {
+    position: relative;
+}
+
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+
+.overlay {
+    display: none;
+}
+
+div[filter]:hover .overlay {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
 }
